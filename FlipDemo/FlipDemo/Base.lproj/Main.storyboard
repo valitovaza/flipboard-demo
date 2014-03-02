@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Second View Controller-->
+        <scene sceneID="VRn-vC-nga">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="d81-NT-K8f" customClass="BDSecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jw3-gM-qRv"/>
+                        <viewControllerLayoutGuide type="bottom" id="tOa-5L-gJw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4v1-g7-m7K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Salavat_memorial" translatesAutoresizingMaskIntoConstraints="NO" id="niz-td-wGf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="378"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="378" id="5Se-6E-fMw"/>
+                                    <constraint firstAttribute="width" constant="320" id="tWr-iJ-tgX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salawat Yulayev (16 June 1754 –    26 September 1800) is a Bashkir national hero who participated in Pugachev's rebellion." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="zRS-r2-cH8">
+                                <rect key="frame" x="20" y="386" width="280" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="EKy-c1-IeA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monument to Salawat Yulayev, Ufa, Baskortostan, Russia" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="243" translatesAutoresizingMaskIntoConstraints="NO" id="hFS-En-KDi">
+                                <rect key="frame" x="20" y="323" width="243" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="SHR-Bm-Wk6"/>
+                                    <constraint firstAttribute="width" constant="243" id="y79-Dm-PRW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZg-l1-GB5">
+                                <rect key="frame" x="20" y="260" width="82" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="6EM-Ch-c4T"/>
+                                    <constraint firstAttribute="height" constant="48" id="iy6-bc-NBg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <state key="normal" title="Wiki">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openInfo:" destination="d81-NT-K8f" eventType="touchUpInside" id="F2P-JA-PuK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql5-Tk-j8f">
+                                <rect key="frame" x="20" y="28" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="CAp-Jh-DJw"/>
+                                    <constraint firstAttribute="width" constant="22" id="X7h-Gx-Jpb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeViewController:" destination="d81-NT-K8f" eventType="touchUpInside" id="HYM-9N-OLK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ql5-Tk-j8f" firstAttribute="leading" secondItem="4v1-g7-m7K" secondAttribute="leading" constant="20" id="4KE-Gk-MVz"/>
+                            <constraint firstItem="zRS-r2-cH8" firstAttribute="top" secondItem="niz-td-wGf" secondAttribute="bottom" constant="8" id="6uc-up-qc4"/>
+                            <constraint firstItem="zRS-r2-cH8" firstAttribute="leading" secondItem="4v1-g7-m7K" secondAttribute="leading" constant="20" id="760-JF-q4D"/>
+                            <constraint firstAttribute="centerY" secondItem="AZg-l1-GB5" secondAttribute="centerY" id="Drl-KS-3Pi"/>
+                            <constraint firstItem="hFS-En-KDi" firstAttribute="leading" secondItem="niz-td-wGf" secondAttribute="trailing" constant="-300" id="L6V-sa-XBh"/>
+                            <constraint firstItem="hFS-En-KDi" firstAttribute="top" secondItem="niz-td-wGf" secondAttribute="bottom" constant="-55" id="Ph7-S4-8NJ"/>
+                            <constraint firstAttribute="trailing" secondItem="zRS-r2-cH8" secondAttribute="trailing" constant="20" id="Rln-oi-hh6"/>
+                            <constraint firstItem="niz-td-wGf" firstAttribute="leading" secondItem="4v1-g7-m7K" secondAttribute="leading" id="Syq-fc-wBf"/>
+                            <constraint firstItem="Jw3-gM-qRv" firstAttribute="top" secondItem="niz-td-wGf" secondAttribute="bottom" constant="-358" id="d3I-nK-NOV"/>
+                            <constraint firstItem="AZg-l1-GB5" firstAttribute="leading" secondItem="4v1-g7-m7K" secondAttribute="leading" constant="20" id="lOt-6I-F2N"/>
+                            <constraint firstItem="Ql5-Tk-j8f" firstAttribute="top" secondItem="Jw3-gM-qRv" secondAttribute="bottom" constant="8" id="lRR-WW-Dew"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonNext" destination="Ql5-Tk-j8f" id="YL1-7v-gMd"/>
+                        <outlet property="buttonWiki" destination="AZg-l1-GB5" id="QwU-X9-X6t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vf5-L0-YRH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="551" y="-71"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SIb-tj-MHP"/>
+                        <viewControllerLayoutGuide type="bottom" id="WAM-yc-aBo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Salavat_memorial" translatesAutoresizingMaskIntoConstraints="NO" id="9b3-fC-eOC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="378"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="378" id="hHK-WZ-Ztg"/>
+                                    <constraint firstAttribute="width" constant="320" id="tUh-vN-F9g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salawat Yulayev (16 June 1754 –    26 September 1800) is a Bashkir national hero who participated in Pugachev's rebellion." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="EM2-d4-D4h">
+                                <rect key="frame" x="20" y="386" width="280" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="LKR-Kg-pJm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monument to Salawat Yulayev, Ufa, Baskortostan, Russia" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="243" translatesAutoresizingMaskIntoConstraints="NO" id="vcD-bB-2cg">
+                                <rect key="frame" x="20" y="323" width="243" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="0GY-2r-bxo"/>
+                                    <constraint firstAttribute="height" constant="43" id="8IJ-zg-B7d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFN-Kp-akt">
+                                <rect key="frame" x="20" y="260" width="82" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="b2n-LX-hvw"/>
+                                    <constraint firstAttribute="height" constant="48" id="g1j-Eh-a8Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <state key="normal" title="Wiki">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openUrl:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="S1y-xq-jnb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdb-KS-03a">
+                                <rect key="frame" x="20" y="28" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="rWW-uG-O2B"/>
+                                    <constraint firstAttribute="width" constant="22" id="zN3-VL-38D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSecondWay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EDU-ye-MdX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vcD-bB-2cg" firstAttribute="leading" secondItem="9b3-fC-eOC" secondAttribute="trailing" constant="-300" id="Awt-nv-SdR"/>
+                            <constraint firstItem="BFN-Kp-akt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="CmC-mT-1zn"/>
+                            <constraint firstAttribute="centerY" secondItem="BFN-Kp-akt" secondAttribute="centerY" id="GxH-Qk-9tx"/>
+                            <constraint firstItem="EM2-d4-D4h" firstAttribute="top" secondItem="9b3-fC-eOC" secondAttribute="bottom" constant="8" id="Hhl-u5-dy9"/>
+                            <constraint firstItem="Mdb-KS-03a" firstAttribute="top" secondItem="SIb-tj-MHP" secondAttribute="bottom" constant="20" symbolic="YES" id="L96-j4-spF"/>
+                            <constraint firstItem="vcD-bB-2cg" firstAttribute="top" secondItem="9b3-fC-eOC" secondAttribute="bottom" constant="-55" id="RMG-9l-FiH"/>
+                            <constraint firstAttribute="trailing" secondItem="EM2-d4-D4h" secondAttribute="trailing" constant="20" id="VSF-yS-Z7y"/>
+                            <constraint firstItem="EM2-d4-D4h" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Xjk-OA-DVP"/>
+                            <constraint firstItem="Mdb-KS-03a" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="bTn-NC-gZ5"/>
+                            <constraint firstItem="SIb-tj-MHP" firstAttribute="top" secondItem="9b3-fC-eOC" secondAttribute="bottom" constant="-358" id="k9I-al-Hpa"/>
+                            <constraint firstItem="9b3-fC-eOC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="xSo-5q-mTv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonNext" destination="Mdb-KS-03a" id="QWl-UN-wIe"/>
+                        <outlet property="buttonWiki" destination="BFN-Kp-akt" id="ezx-fC-Vlk"/>
+                        <outlet property="imageView" destination="9b3-fC-eOC" id="a5a-cZ-5q0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Salavat_memorial" width="320" height="378"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
